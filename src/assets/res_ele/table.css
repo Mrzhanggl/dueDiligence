@@ -1,0 +1,64 @@
+
+
+.due-d .el-table thead th > .cell,.due-d .el-table thead  .el-dropdown-link {
+    color: #0D1A26;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.due-d .el-table tbody td > .cell {
+   
+    line-height: 21px;
+}
+.due-d .el-table tbody td .el-table_1_column_1  {
+   font-family: 'DIN-Medium';
+}
+.due-d .el-table th.is-leaf, .el-table td {
+    border-bottom: 2px solid #E6E9EB;
+}
+.due-d .el-table__header {
+    border-radius:12px 12px 0px 0px;
+}
+.due-d .el-table {
+    border-radius:12px 12px ;
+    color: #556675;
+    border:2px solid rgba(230,233,235,1);
+    -webkit-border-radius:12px 12px ;
+    -moz-border-radius:12px 12px ;
+    -ms-border-radius:12px 12px ;
+    -o-border-radius:12px 12px ;
+}
+.due-d .el-table thead tr {
+    height: 90px;
+    padding-top:36px; 
+    padding-bottom:33px; 
+} 
+.due-d .el-table th .el-dropdown {
+    margin-left: -10px;
+    
+} 
+
+.due-d table td:nth-child(1),.due-d table th:nth-child(1) {
+    padding-left:39px; 
+    font-family: 'DIN-Medium';
+}
+.due-d table td{
+    padding-top:16px; 
+    padding-bottom:17px; 
+}
+
+.due-d .el-table--enable-row-hover .el-table__body tr:hover > td {
+    background-color:rgba(66,133,244,0.1);
+}
+
+
+.us-main .el-table{
+    color: rgba(85,102,117,1);
+}
+
+.quota table td:nth-child(2),.quota table th:nth-child(2) {
+    font-family: 'DIN-Medium';
+}
+.quota table td:nth-child(3) .el-input input,.quota table th:nth-child(3) {
+    font-family: 'DIN-Medium';
+}

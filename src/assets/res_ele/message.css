@@ -1,0 +1,67 @@
+
+
+
+.el-message-box__wrapper .el-message-box {
+    width: 480px;
+}
+.el-message-box {
+    border:2px solid rgba(230,233,235,1) !important;
+    box-shadow:0px 12px 12px 0px rgba(13,26,38,0.01) !important;
+    border-radius:8px !important;
+}
+.el-message-box>.el-message-box__header {
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.el-message-box>.el-message-box__header>.el-message-box__headerbtn {
+    position: absolute;
+    top: 29px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+.el-icon-close:before{
+    content:url('../img/dialog/cancel_icon_default.png') !important;
+}
+.el-message-box__headerbtn:focus .el-icon-close:before, 
+.el-message-box__headerbtn:hover .el-icon-close:before {
+    content:url('../img/dialog/cancel_icon_active.png') !important;
+}
+
+
+
+
+.el-message-box__header>.el-message-box__title {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    color: rgba(13,26,38,1);
+}
+.el-message-box>.el-message-box__content {
+
+    padding: 0px 30px 30px 30px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color:rgba(85,102,117,1);
+}
+.el-message-box>.el-message-box__btns button:nth-child(2) {
+    width: 96px;
+    height: 52px;
+    letter-spacing: 2px;
+    margin-left: 51px;
+    font-size:16px;
+    background-color: #4285F4 !important;
+}
+.el-message-box>.el-message-box__btns button:nth-child(2):hover {
+    background: #689df6 !important;
+    border-color: #689df6 !important;
+}
+.el-message-box>.el-message-box__btns {
+    padding: 0px 30px 20px;
+}
+.el-message-box>.el-message-box__btns  .el-button--text{
+    letter-spacing: 2px;
+    color: #556675;
+    font-size:16px;
+}

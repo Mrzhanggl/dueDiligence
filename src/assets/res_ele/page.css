@@ -1,0 +1,59 @@
+.el-pagination .el-icon-arrow-right:before {
+    content: "\e791" !important;
+}
+
+.el-pagination .el-icon-arrow-left:before {
+    content: "\e792" !important;
+}
+
+.reset .el-pagination__editor.el-input {
+    width: 56px;
+    margin: 0 15px;
+}
+
+.reset .el-pagination__editor.el-input .el-input__inner {
+    border-radius: 4px;
+}
+
+
+.reset.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #4285F4;
+    color: #FFFFFF;
+}
+
+
+
+.reset.el-pagination.is-background .btn-prev,
+.reset.el-pagination.is-background .btn-next,
+.reset.el-pagination.is-background .el-pager li {
+    background-color: #fff;
+    border:1px solid rgba(230,233,235,1);
+}
+
+.reset.el-pagination.is-background .btn-next{
+    border-radius:0px 4px 4px 0px;
+}
+.reset.el-pagination.is-background .btn-prev{
+    border-radius:4px 0px 0px 4px;
+}
+
+
+
+
+.reset .el-pagination__jump,
+.reset .el-input__inner,
+.reset.el-pagination.is-background .el-pager li {
+    font-size: 14px;
+    color: #9EA8B1;
+    font-weight: 400;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.reset.el-pagination .btn-prev .el-icon,
+.reset.el-pagination .btn-next .el-icon {
+    font-size: 15px;
+}

@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'DIN-Medium'; 
+    src: url('./font/DIN-Medium.eot');
+    src:url('./font/DIN-Medium.woff') format('woff'),
+        url('./font/DIN-Medium.ttf') format('truetype'),
+        url('./font/DIN-Medium.svg') format('svg');
+}
+@font-face{
+    font-family: 'DIN-Bold'; 
+    src: url('./font/din-bold_.eot');
+    src:url('./font/din-bold_.woff') format('woff'),
+        url('./font/din-bold_.ttf') format('truetype'),
+        url('./font/din-bold_.svg') format('svg');
+}

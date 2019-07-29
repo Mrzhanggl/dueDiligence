@@ -1,0 +1,12 @@
+.el-picker-panel.el-date-picker .el-picker-panel__content {
+    width: 381px ;
+}
+
+.el-picker-panel.el-date-picker {
+    width: 412px;
+    border: 2px solid #E6E9EB;
+}
+
+.el-picker-panel  .popper__arrow {
+    left: 205px !important;
+}

@@ -1,0 +1,43 @@
+.check-all{
+    margin-right: 10px;
+}
+.check-list{
+    margin-right: 12px;
+}
+
+
+.check-all,
+.check-list {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(230, 233, 235, 1);
+    border-radius: 4px;
+    text-align: center;
+}
+.check-all.is-active,
+.check-list.is-active {
+    background: #4285F4;
+    border: 2px solid #4285F4;
+}
+
+
+
+
+.iconfont.icon-done{
+    font-size: 15px;
+    display: none;
+    color: #fff;
+    
+}
+.iconfont.icon-done::before{
+    content: url("../img/template/done_icon.png")
+    
+}
+.check-all.is-active .iconfont.icon-done,
+.check-list.is-active .iconfont.icon-done{
+    display: block;
+}

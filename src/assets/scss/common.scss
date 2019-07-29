@@ -1,0 +1,78 @@
+
+
+$big-srceen:1920px;
+
+$large-srceen:1800px;
+$small-srceen:960px;
+
+
+
+
+$min-width:1340px;
+$least-width:1300px;
+
+
+
+
+
+$theme-color:#4285F4;
+
+$container-width:1740px;
+
+
+
+.container-card{
+    width: $container-width;
+    @media screen and (max-width:$large-srceen){
+        width: 1300px;
+    }
+}
+
+
+
+
+
+@mixin position-vertical-center($height) {
+    position: absolute;
+    top: 50%;
+    margin-top: -$height;
+  }
+
+
+
+
+
+
+
+
+@mixin display_flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+@mixin flex-direction_column{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+@mixin flex-direction_row{
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+@mixin justify-content_flex-center{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+@mixin align-items_center{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
